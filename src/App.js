@@ -24,7 +24,7 @@ class App extends Component {
       })
     });
   }
-
+  //Agrega una nueva tarea
   handleAddTodo(todo) {
     this.setState({
       todos: [...this.state.todos, todo]
