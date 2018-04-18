@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class TodoForm extends Component {
-  constructor () {
+  constructor() {
     super();
     this.state = {
       title: '',
@@ -25,7 +25,7 @@ class TodoForm extends Component {
   }
 
   handleInputChange(e) {
-    const {value, name} = e.target;
+    const { value, name } = e.target;
     console.log(value, name);
     this.setState({
       [name]: value
@@ -44,7 +44,7 @@ class TodoForm extends Component {
               value={this.state.title}
               onChange={this.handleInputChange}
               placeholder="Title"
-              />
+            />
           </div>
           <div className="form-group">
             <input
@@ -54,7 +54,7 @@ class TodoForm extends Component {
               value={this.state.responsible}
               onChange={this.handleInputChange}
               placeholder="Responsible"
-              />
+            />
           </div>
           <div className="form-group">
             <input
@@ -64,15 +64,15 @@ class TodoForm extends Component {
               value={this.state.description}
               onChange={this.handleInputChange}
               placeholder="Description"
-              />
+            />
           </div>
           <div className="form-group">
             <select
-                name="priority"
-                className="form-control"
-                value={this.state.priority}
-                onChange={this.handleInputChange}
-              >
+              name="priority"
+              className="form-control"
+              value={this.state.priority}
+              onChange={this.handleInputChange}
+            >
               <option>low</option>
               <option>medium</option>
               <option>high</option>
