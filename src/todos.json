@@ -1,28 +1,22 @@
 {
     "todos":[
         {
-            "title":"Task 1",
-            "responsible": "Marco",
-            "description": "Lorem impsum",
-            "priority":"low"
-        },
-        {
-            "title":"Task 2",
-            "responsible": "Luis",
-            "description": "Lorem impsum 2",
+            "title":"Tarea No.1",
+            "responsible": "Ivonne",
+            "description": "Hacer repositorio en GH",
             "priority":"medium"
         },
         {
-            "title":"Task 3",
-            "responsible": "Julio",
-            "description": "Lorem impsum 3",
+            "title":"Tarea No.2",
+            "responsible": "Caro",
+            "description": "Crear componentes React",
+            "priority":"medium"
+        },
+        {
+            "title":"Tarea No.3",
+            "responsible": "Daniela",
+            "description": "Incluir Firebase",
             "priority":"high"
-        },
-        {
-            "title":"Task 4",
-            "responsible": "Mark",
-            "description": "Lorem impsum 4",
-            "priority":"medium"
         }
     ]
 }
